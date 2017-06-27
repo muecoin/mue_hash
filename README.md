@@ -1,16 +1,13 @@
-dash_hash (python) v1.3.1
+mue_hash (python) v0.0.1
 ===========================
 
-Python module for Dash's X11 hashing.
-
+Python module for MonetaryUnit's X11 hashing.
 
 Install
 -------
-
 Python 2.7 is required as well as a gcc.
 
     $ sudo python2 setup.py install
-
 
 Test
 -------
@@ -26,3 +23,4 @@ Credits
 * Module maintained by @eduffield https://github.com/darkcoinproject/xcoin-hash
 * Module maintained by @flare https://github.com/nightlydarkcoin/xcoin-hash
 * Module maintained by @vertoe https://github.com/vertoe/darkcoin_hash
+* Adopted for MUE by @bbobb https://github.com/CryptoPHI/mue_hash

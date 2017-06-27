@@ -1,5 +1,5 @@
-#ifndef DASH_H
-#define DASH_H
+#ifndef MUE_H
+#define MUE_H
 
 #ifdef __cplusplus
 extern "C" {

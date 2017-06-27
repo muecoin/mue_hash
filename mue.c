@@ -1,4 +1,4 @@
-#include "dash.h"
+#include "mue.h"
 #include <stdlib.h>
 #include <stdint.h>
 #include <string.h>
@@ -17,7 +17,7 @@
 #include "sha3/sph_echo.h"
 
 
-void dash_hash(const char* input, char* output)
+void mue_hash(const char* input, char* output)
 {
     sph_blake512_context     ctx_blake;
     sph_bmw512_context       ctx_bmw;
@@ -26,9 +26,9 @@ void dash_hash(const char* input, char* output)
     sph_jh512_context        ctx_jh;
     sph_keccak512_context    ctx_keccak;
 
-    sph_luffa512_context		ctx_luffa1;
-    sph_cubehash512_context		ctx_cubehash1;
-    sph_shavite512_context		ctx_shavite1;
+    sph_luffa512_context	ctx_luffa1;
+    sph_cubehash512_context ctx_cubehash1;
+    sph_shavite512_context	ctx_shavite1;
     sph_simd512_context		ctx_simd1;
     sph_echo512_context		ctx_echo1;
 
