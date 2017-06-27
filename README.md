@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/CryptoPHI/mue_hash.svg?branch=master)](https://travis-ci.org/CryptoPHI/mue_hash)
+
 mue_hash (python) v0.0.1
 ===========================
 
